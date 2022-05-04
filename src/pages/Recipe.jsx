@@ -19,7 +19,7 @@ function Recipe() {
   React.useEffect(() => {
     async function fetchRecipe() {
       const response = await fetch(
-        `https://api.spoonacular.com/recipes/${id}/information?includeNutrition=false&apiKey=8236aaf59b45714a92b720cdcf0857df3babaa56`,
+        `https://api.spoonacular.com/recipes/${id}/information?includeNutrition=false&apiKey=89bacf1802a142389a1882a31dc19fd3`,
       );
       const data = await response.json();
 
