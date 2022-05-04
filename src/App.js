@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <div className="wrapper">
         <Routes>
-          <Route path='/recipe-app/*' element={<NotFound />} />
-          <Route path="/recipe-app/" element={<Home />}></Route>
-          <Route path="/recipe-app/recipe/:id" element={<Recipe />}></Route>
+          <Route path="*" element={<NotFound />} />
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/recipe/:id" element={<Recipe />}></Route>
         </Routes>
       </div>
     </div>

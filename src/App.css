@@ -361,3 +361,16 @@ body {
   width: 30px;
   margin-right: 10px;
 }
+
+/* media query */
+@media screen and (max-width: 800px) {
+  .recipe-preview {
+    flex-direction: column;
+  }
+
+  .recipe-preview__img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

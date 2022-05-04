@@ -7,7 +7,7 @@ function Recipes({ items }) {
         {items &&
           items.map(({ id, image, title }) => (
             <li key={id} className="recipes__item">
-              <Link to={`/recipe-app/recipe/${id}`} className="recipes__item-link">
+              <Link to={`/recipe/${id}`} className="recipes__item-link">
                 <div className="recipes__item-img">
                   <img src={image} alt="dish" />
                 </div>
