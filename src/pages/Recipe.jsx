@@ -32,8 +32,6 @@ function Recipe() {
   const steps = recipe?.analyzedInstructions[0]?.steps;
   const ingredients = recipe?.extendedIngredients;
 
-  console.log(recipe);
-
   return (
     <div className="recipe">
       <RecipePreview {...recipe} />
